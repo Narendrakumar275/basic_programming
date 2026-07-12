@@ -1,16 +1,12 @@
-#include <iostream>
+#include<iostream>
 #include <fstream>
-#include <string>
+#include<string>
 using namespace std;
-int main()
-{
+int main(){
     ifstream file("profile.txt");
-    string line;
-    while(getline(file, line))
-    {
-        cout << line << endl;
-    }
+    string studentName;
+    file>>studentName;
+    cout<<"Student_Name\n"<<studentName<<endl;
     file.close();
-    cout<<"data read successfully"<<endl;
     return 0;
 }
