@@ -13,7 +13,7 @@ int main(){
        wordcount++;
     }
       cout<<"total number of word: "<<wordcount<<endl;
-      cout<<"\n print the total word{y/n}"<<endl;
+      cout<<"\n print the total word(y/n)"<<endl;
       cin>>fill;
       if( fill == 'y'){
         file.clear();
